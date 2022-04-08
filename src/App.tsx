@@ -23,6 +23,7 @@ function App() {
             exact={true}
             component={UserRegister}
           />
+          <Route path="*" exact={true} component={Login} />
         </Switch>
       </Router>
     </div>
